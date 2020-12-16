@@ -1,10 +1,9 @@
-##################################
+
 #This is a text based adventure game
 #
 #A SPACE ADVENTURE: BACK HOME
 #
 #to play the inserted games you have to install pygame()
-#∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑
 #
 #when typing answers, you can use only the first letter
 #
@@ -25,8 +24,8 @@ drink = {"d", "dr", "dri", "drin", "drink"}
 #introduction to the game
 #insert your name to start the game
 
-name = input("Please enter your name to start the adventure of a lifetime: "). capitalize()
-print("Hello {} ... this is how your adventure begins ...". format(name))
+name = input(str("Please enter your name to start the adventure of a lifetime: "))
+print("Hello" ,name," ... this is how your adventure begins ...")
 print()
 
 #create a while loop for the game to return to this point in case you answer no
@@ -71,14 +70,16 @@ while True:
 
 
         ###########################################################
-        #while True:
+        while True:
         #   pygame() --> snake --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
-        #   if int(output) >= 10:
-        #       print("Good job, the last pill you ate was the right one")
-        #       break
-        #   else:
-        #       print("Unfortunately you did not find the right pill. Try again!")
-        #       continue
+            import Snake
+            try:
+                snake()
+            except:
+                print("Good job, the last pill you ate was the right one")
+                break
+
+
         ###########################################################
 
         break
@@ -96,14 +97,14 @@ while True:
         print("Hopefully, you gain enough time to get past the creature.")
 
         ###########################################################
-        # while True:
+        while True:
         #   pygame() --> snake --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
-        #   if int(output) >= 10:
-        #       print("Nice job, you successfully distracted the alien and managed to get through the door")
-        #       break
-        #   else:
-        #       print("Rotten luck, you did not distract the alien for long enough to get past the door. Try again!")
-        #       continue
+            import Snake
+            try:
+                snake()
+            except:
+                print("Good job, the last pill you ate was the right one")
+                break
         ###########################################################
 
         break
@@ -132,18 +133,17 @@ while True:
         print("But beware ... all that water has made your shoes quite slippery!")
 
         ###########################################################
-        # while True:
-        #   pygame() --> doodle jump game --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
-        #   if int(output) >= 10:
-        #       print("Congratulations, you almost slipped, but you managed to complete this dangerous task")
-        #       print("As the lights turn back on, you notice a previously locked door has opened as a result of the blackout")
-        #       print("You proceed on your quest")
-        #       break
-        #   else:
-        #       print("SPLASH!")
-        #       print("You did not manage to reach the electric panel, but at least the water has made your fall less painful.")
-        #       print("Let's give it another go!")
-        #       continue
+        while True:
+        #pygame() --> doodle jump game --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
+            import Bounce
+
+            try:
+                    bounce()
+            except:
+                    print("Congratulations, you almost slipped, but you managed to complete this dangerous task")
+                    print("You proceed on your quest")
+                    break
+
         ###########################################################
 
         break
@@ -161,14 +161,15 @@ while True:
         print("from the other side.")
 
         ###########################################################
-        # while True:
+        while True:
         #   pygame() --> doodle jump game --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
-        #   if int(output) >= 10:
-        #       print("Impressive gaming skills, the robot can now unlock the door for you!")
-        #       break
-        #   else:
-        #       print("Oh no! Luckily the robot didn't break. Better luck next time. Try again!")
-        #       continue
+            import venv.Game.Bounce
+            try:
+                bounce()
+            except:
+                print("Congratulations, you almost slipped, but you managed to complete this dangerous task")
+                print("You proceed on your quest")
+                break
         ###########################################################
 
         break
@@ -186,7 +187,10 @@ print("But beware of the asteroids!")
 
 
 ###########################################################
-#∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑.pygame() --> rocket
+#pygame() --> rocket
+import Rocket.py
+meteorAttack()
+
 #
 #
 #
@@ -197,5 +201,8 @@ print("But beware of the asteroids!")
 #
 #
 #
+
+
+
 
 
