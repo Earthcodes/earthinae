@@ -188,7 +188,7 @@ print("But beware of the asteroids!")
 
 ###########################################################
 #pygame() --> rocket
-import Rocket
+from Rocket import meteorAttack
 meteorAttack()
 
 #
