@@ -42,6 +42,18 @@ title=&quot;Flaticon&quot;&gt;www.flaticon.com&lt;/a&gt;&lt;/div&gt;
 
 
 
+Jan Luckmann						19-607-688
+
+Jean Delclos						19-618-990
+
+Jérémy Huber						19-617-208
+
+Justin Koren						18-613-364
+
+Luca Erdmann						19-609-890
+
+
+
 
 
 
