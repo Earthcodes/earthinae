@@ -2,24 +2,22 @@
 
 
 
- SPACE ADVENTURE: BACK HOME
+                                                          SPACE ADVENTURE: BACK HOME
 
-A Python based adventure style game
-
-
+                                                       A Python based adventure style game
 
 
 
 
 
 
-December 17, 2020
-
-University of St. Gallen
-
-Skills: Programming – Introduction Level
 
 
+                                                               December 17, 2020
+
+                                                            University of St. Gallen
+
+                                                      Skills: Programming – Introduction Level
 
 
 
@@ -31,18 +29,20 @@ Skills: Programming – Introduction Level
 
 
 
-Authors:						Student ID:
 
 
-Jan Luckmann						19-607-688
+                                                            Authors:						Student ID:
 
-Jean Delclos						19-618-990
 
-Jérémy Huber						19-617-208
+                                                           Jan Luckmann						19-607-688
 
-Justin Koren						18-613-364
+                                                           Jean Delclos						19-618-990
 
-Luca Erdmann						19-609-890
+                                                           Jérémy Huber						19-617-208
+
+                                                           Justin Koren						18-613-364
+
+                                                           Luca Erdmann						19-609-890
 
 
 
