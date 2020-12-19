@@ -9,6 +9,8 @@
 #
 ###################################
 #the variables are:
+#imports time to slow down game
+import time
 
 yes = {"yes", "y", "ye"}
 
@@ -67,7 +69,7 @@ while True:
         print("You notice different pills scattered around the lab.")
         print("You are hoping one of the pills will turn you back into your human form.")
         print("Try to eat as many pills as possible in the hope you find the right one")
-
+        time.sleep(4)
 
         ###########################################################
         while True:
@@ -95,6 +97,7 @@ while True:
         print("Unfortunately, there is an alien-looking creature in front of it.")
         print("Try to lead the monster away from the passage by leading it food")
         print("Hopefully, you gain enough time to get past the creature.")
+        time.sleep(4)
 
         ###########################################################
         while True:
@@ -131,6 +134,7 @@ while True:
         print("the room's ceiling.")
         print("The electric panel is probably there. Try to climb up and repair the wiring.")
         print("But beware ... all that water has made your shoes quite slippery!")
+        time.sleep(4)
 
         ###########################################################
         while True:
@@ -159,7 +163,7 @@ while True:
         print("After a bit you find what seems to be a small remote controlled robot.")
         print("You decide piloting it through the venting system so that it can unlock the door")
         print("from the other side.")
-
+        time.sleep(3)
         ###########################################################
         while True:
         #   pygame() --> doodle jump game --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
@@ -178,6 +182,9 @@ while True:
     else:
         print("Don't mess with our game! Enter yes or no")
         continue
+        
+
+time.sleep(4)
 
 print()
 print("Finally, you enter the command room and set your destination to earth")
