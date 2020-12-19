@@ -22,6 +22,9 @@ The commands are “a” for left, “w” for up, “d” for right, “s” fo
 
 For the program to run correctly it is crucial to have the pictures in the current working directory of the Python file. Otherwise the specified path will not lead to the pictures and the game will run an error. Normally this is automatically so when downloading the folder from Github. In case this should not work, please add them to the correct working directory.
 
+Instruction: 
+To run the file. Download the code file and run the main file on your local computer. 
+
 
 
 Attribution to the creators of the images according to the rules of flaticon.com
