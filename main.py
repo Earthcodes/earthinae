@@ -171,7 +171,7 @@ while True:
         ###########################################################
         while True:
         #   pygame() --> doodle jump game --> that gives as a result an input = ? (some number to determine if you exit the loop or stay in the loop and play the minigame again)
-            import venv.Game.Bounce
+            import Bounce
             try:
                 bounce()
             except:
