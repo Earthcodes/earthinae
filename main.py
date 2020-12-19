@@ -44,6 +44,7 @@ while panic == 1:
     while answer not in yes and answer not in no:
         answer = input("You start panicking, do you want to try to calm down? (yes/no)"). lower(). strip()
         if answer in yes:
+            time.sleep(1)
             panic = 0
             print()
             print("Cool! You decide to go look for the command room in order to fly back home.")
@@ -62,6 +63,7 @@ print("As you are looking around the lab you see a glass filled with what seems 
 while True:
     answer2 = input("You are quite thirsty. Do you drink it, or do you walk past the glass? (drink/no)"). lower(). strip()
     if answer2 in drink:
+        time.sleep(1)
         print()
         print("As it turns out this was probably not your best decision.")
         print("As you make your last sip, you notice the liquid in the glass turning fluorescent.")
@@ -88,6 +90,7 @@ while True:
 
 
     elif answer2 in no:
+        time.sleep(1)
         print()
         print("You aren't that gullible!")
         print("duh, of course you don't drink a random substance in an unfamiliar lab")
@@ -125,6 +128,7 @@ print("You find the water valve but are unsure in which direction to turn it to 
 
 while True:
     answer3 = input("Do you turn in in the left or the right direction? (left/right)"). lower(). strip()
+    time.sleep(1)
     if answer3 in left:
         print()
         print("OH NO! you turned the valve in the wrong direction, high water pressure breaks the pipes.")
@@ -184,14 +188,14 @@ while True:
         continue
         
 
-time.sleep(4)
+
 
 print()
 print("Finally, you enter the command room and set your destination to earth")
 print("Time to fly!!)")
 print("...")
 print("But beware of the asteroids!")
-
+time.sleep(4)
 
 ###########################################################
 #pygame() --> rocket
